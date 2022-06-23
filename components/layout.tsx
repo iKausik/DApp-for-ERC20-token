@@ -170,7 +170,7 @@ const Layout = () => {
     <div className="contain">
       {/* Title */}
       <div className="box1 p-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex flex-col items-center ">
-        <Image src={panda} width={100} height={100} />
+        <Image src={panda} width={100} height={100} alt="panda" />
         <h1 className="title text-slate-50">PandaCoin</h1>
       </div>
 
@@ -191,7 +191,7 @@ const Layout = () => {
         )}
         <br />
         <br />
-        <Image src={plug} width={50} height={50} />
+        <Image src={plug} width={50} height={50} alt="plug" />
       </div>
 
       {/* request PAC tokens */}
