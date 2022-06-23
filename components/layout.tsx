@@ -339,7 +339,7 @@ const Layout = () => {
           <b>Assets</b> section, click on <b>Import tokens</b>. Then on the{" "}
           <b>Import Tokens</b> form add this contract address{" "}
           <b>
-            <i>0xeD1ADFcc7d81296cD2eF68d26A8ce0C4d5e3Eb83</i>
+            <i>0xB70EF3d71a3d5000519c340b4E5b590569e5dA3b</i>
           </b>{" "}
           to the <b>Token Contract Address</b> field. It'll automatically
           generate rest of the details of the token and then click on{" "}
