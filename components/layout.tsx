@@ -4,10 +4,6 @@ import { ethers, utils } from "ethers";
 
 import abi from "./contracts/PandaCoin.json";
 
-import Image from "next/image";
-import panda from "../public/panda.png";
-import plug from "../public/plug.png";
-
 const Layout = () => {
   const [isWalletConnected, setIsWalletConnected] = useState(false);
   const [currentAccount, setCurrentAccount] = useState(null);
@@ -170,7 +166,8 @@ const Layout = () => {
     <div className="contain">
       {/* Title */}
       <div className="box1 p-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex flex-col items-center ">
-        <Image src={panda} width={100} height={100} alt="panda" />
+        <img src="panda.png" width={100} height={100} alt="panda" />
+
         <h1 className="title text-slate-50">PandaCoin</h1>
       </div>
 
@@ -191,7 +188,7 @@ const Layout = () => {
         )}
         <br />
         <br />
-        <Image src={plug} width={50} height={50} alt="plug" />
+        <img src="plug.png" width={50} height={50} alt="plug" />
       </div>
 
       {/* request PAC tokens */}
