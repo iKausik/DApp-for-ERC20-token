@@ -19,7 +19,7 @@ const Layout = () => {
     sendAmount: "",
   });
 
-  const contractAddress: string = "0xB70EF3d71a3d5000519c340b4E5b590569e5dA3b";
+  const contractAddress: string = "0xC3261d3a36dDB8096A3D811e7441d4FCf185D410";
   const contractABI = abi.abi;
 
   const checkIfWalletIsConnected = async () => {
